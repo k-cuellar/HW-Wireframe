@@ -26,8 +26,8 @@ header {
     background-color: #ebebeb;
     float: right;
     width:450px;
-    height: 200px;
-    margin: 2px;
+    height: 300px;
+    margin: 20px 2px 20px 2px;
     text-align: center;
   }
 
@@ -36,30 +36,33 @@ header {
       clear: both;
       float: left;
       overflow: auto;
-      height: 200px;
-      margin: 2px;
+      height: 300px;
+      margin: 20px 2px 20px 2px;
       width: 495px;
       text-align: center;
   }
 
-  article {
+article {
       color: #ebebeb;
       background-color: #777;
+      margin: 15px;
+      overflow: auto;
   }
 
 #h1h2h3 {
     color: #777;
     background-color: #ebebeb;
+    margin: 15px;
 }
 
 #paragraph {
     color: #777;
     background-color: #ebebeb;
+    margin: 15px 10px 15px 10px;
 }
   
 footer {
       background-color: #ebebeb;
-      margin-bottom: 20px;
       margin-top: 20px;
       padding: 10px;
       clear: both;
