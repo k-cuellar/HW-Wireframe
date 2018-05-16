@@ -1,8 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background-color: #777;
-    width: 960px;
+    /* width: 960px; */
     font-size: 18px;
 }
 
@@ -12,13 +16,15 @@ header {
     background-color: #ebebeb;
     font-size: large;
     text-align: center;
+    width: 960px;
+    margin: 0 auto;
   }
 
   #navigation {
     background-color: #ebebeb;
     text-align: center;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     clear: both;
   }
 
@@ -26,8 +32,8 @@ header {
     background-color: #ebebeb;
     float: right;
     width:450px;
-    height: 300px;
-    margin: 20px 2px 20px 2px;
+    height: 320px;
+    margin: 10px 2px 20px 2px;
     text-align: center;
   }
 
@@ -36,8 +42,8 @@ header {
       clear: both;
       float: left;
       overflow: auto;
-      height: 300px;
-      margin: 20px 2px 20px 2px;
+      height: 320px;
+      margin: 10px 2px 20px 2px;
       width: 495px;
       text-align: center;
   }
@@ -52,13 +58,15 @@ article {
 #h1h2h3 {
     color: #777;
     background-color: #ebebeb;
-    margin: 15px;
+    margin: 15px 10px 15px 10px;
+    padding: 1px 0 1px 0;
 }
 
 #paragraph {
     color: #777;
     background-color: #ebebeb;
     margin: 15px 10px 15px 10px;
+    padding: 1px 0 1px 0;
 }
   
 footer {
@@ -67,4 +75,7 @@ footer {
       padding: 10px;
       clear: both;
       text-align: center;
+
+      width: 960px;
+      margin: 20px auto;
   }
